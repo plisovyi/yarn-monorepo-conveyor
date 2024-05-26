@@ -1,0 +1,20 @@
+{
+  "name": "@pavloinc/feature-a",
+  "version": "4.2.0-dev",
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!*/test",
+    "!*/tsconfig.{json,tsbuildinfo}",
+    "feature.js",
+    "feature.d.ts",
+    "main.js",
+    "main.d.ts",
+    "universal.js",
+    "universal.d.ts"
+  ]
+}

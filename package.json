@@ -1,0 +1,13 @@
+{
+  "name": "yarn-monorepo-conveyor",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "electron": "^30.0.8"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true
+}

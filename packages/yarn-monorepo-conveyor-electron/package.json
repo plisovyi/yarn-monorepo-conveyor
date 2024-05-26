@@ -1,0 +1,25 @@
+{
+  "name": "@pavloinc/yarn-monorepo-conveyor-electron",
+  "productName": "YaMonCon",
+  "version": "4.2.0-dev",
+  "description": "YarnMonorepoConveyor",
+  "homepage": "https://www.yamoncon.com",
+  "private": true,
+  "main": "./electron-main-entry.mjs",
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plisovyi/yarn-monorepo-conveyor.git"
+  },
+  "dependencies": {
+    "@pavloinc/feature-a": "^4.2.0-dev",
+    "@electron/remote": "^2.1.2",
+    "electron-window-state": "^5.0.3"
+  },
+  "files": [
+    "dist"
+  ]
+}
